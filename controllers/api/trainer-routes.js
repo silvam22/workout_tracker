@@ -59,7 +59,10 @@ router.post('/', (req, res) => {
     Trainer.create({
         username: req.body.username,
         password: req.body.password,
-        email: req.body.email
+        email: req.body.email,
+        specialty: req.body.specialty,
+        certification: req.body.certification
+
     })
         .then(dbUserData => {
             req.session.save(() => {
