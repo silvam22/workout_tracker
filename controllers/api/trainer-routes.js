@@ -1,4 +1,5 @@
 const router = require('express').Router();
+<<<<<<< HEAD
 const { User, Trainer, Post, Comment } = require('../../models');
 
 // Get all Trainer
@@ -134,3 +135,23 @@ router.post('/logout', (req, res) => {
 });
 
 module.exports = router;
+=======
+const { User, Post, Comment, Trainer } = require('../../models');
+const session = require('express-session');
+const withAuth = require('../../utils/auth');
+const SequelizeStore = require('connect-session-sequelize')(session.Store);
+
+
+router.get('/', (req, res) => {
+    User.findAll({
+        attributes: { exclude: ['password'] }
+    })
+      .then(dbUserData => res.json(dbUserData))
+      .catch(err => {
+        console.log(err);
+        res.status(500).json(err);
+      });
+  });
+
+  module.exports = router;
+>>>>>>> f063a6a4d825204b096eee7eaac276d7374b8d33
