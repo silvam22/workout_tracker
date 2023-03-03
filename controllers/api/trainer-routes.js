@@ -1,4 +1,8 @@
 const router = require('express').Router();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 const { User, Trainer, Post, Comment } = require('../../models');
 
 // Get all Trainer
@@ -134,4 +138,3 @@ router.post('/logout', (req, res) => {
 });
 
 module.exports = router;
-
