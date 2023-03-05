@@ -77,6 +77,9 @@ router.post('/', (req, res) => {
 });
 
 router.post('/login', (req, res) => {
+  try {
+    
+  
     User.findOne({
         where: {
         username: req.body.username
@@ -97,7 +100,10 @@ router.post('/login', (req, res) => {
     
           res.json({ user: dbUserData, message: 'You are logged in!' });
         });
-    });  
+    });
+  } catch (error) {
+   console.log(error); 
+  }  
 });
 
 router.post('/logout', withAuth, (req, res) => {
