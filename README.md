@@ -69,16 +69,16 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 ## Reach-me
 [-- Add notes--]
 ## GitHub-name
-- Miriam Silva
+- Miriam Silva :  
 Github Profile: https://github.com/silvam22
 
-- Colton Taylor-Ortiz
+- Colton Taylor-Ortiz :  
 Github Profile: https://github.com/ColtonTO
 
-- Jessy Josephine Daniel Inbaraj
+- Jessy Josephine Daniel Inbaraj :  
 Github Profile: https://github.com/Jessyjdi
 
-- Yuri Kwon
+- Yuri Kwon :  
 Github Profile: https://github.com/uriyuri00
 
 
