@@ -5,15 +5,12 @@
   - [Acceptance Criteria](#acceptance-criteria)
   - [Installation](#installation)
   - [Credit](#credit)
-  - [Mock-Up](#mock-up)
   - [Database Models](#database-models)
-  - [Associations](#associations)
-  - [Additional-Info](#additional-info)
-  - [Reach-me](#reach-me)
   - [GitHub-name](#github-name)
-  - [Video-Link](#video-link)
 ## Description
-[-- Add notes--]
+Fitness tracker is the app for you! On this website, you can post your workouts, get comments and updates from professional fitness trainers, and keep yourself and others up to date with your workouts and fitness lifestyle! 
+Professionals and beginners alike, having the ability to document your workout routine and receive feedback is incredibly useful! 
+
 ## User Story
 ```md
 As a user who wants to exercise
@@ -57,21 +54,27 @@ WHEN I am idle on the site for more than a set time
 THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
 ```
 ## Installation
-[-- Add notes--]
+This project uses Node.js, Express.js, Handlebars.js, MySQL, Sequalie ORM, Cloudinary, and Heroku
 ## Credit
-[-- Add notes--]
-## Mock-Up
-[-- Add notes--]
-### Database Models
-[-- Add notes--]
-## Additional-Info
-[-- Add notes--]
-## Reach-me
-[-- Add notes--]
+TA's and Instructors
+## Database Models
+[DataModel](./public/images/model.PNG)
+
 ## GitHub-name
-[-- Add notes--]
-## Video-Link
-[-- Add link--]
+For any questions, you can contact the following Developers that created this app-
+
+https://github.com/uriyuri00
+
+https://github.com/ColtonTO
+
+https://github.com/Jessyjdi
+
+https://github.com/silvam22
+
+Application link:
+
+https://guarded-lowlands-52633.herokuapp.com/
+
 
 
 
